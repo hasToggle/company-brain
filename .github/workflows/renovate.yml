@@ -74,7 +74,7 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           # Floats within the major so patches arrive without a config bump;
           # Renovate keeps the `uses:` pin above current by itself.
-          renovate-version: 44
+          renovate-version: 45
         env:
           # Global (self-hosted) config lives here rather than in a config file
           # so there is one place to read. The action forwards any RENOVATE_*
